@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Subir Video - MoonVideo</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Subir video a MoonVideo</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="text" name="title" placeholder="Título" required><br>
+        <textarea name="description" placeholder="Descripción"></textarea><br>
+        <input type="file" name="video" accept="video/mp4" required><br>
+        <button type="submit">Subir</button>
+    </form>
+    <a href="/">Volver a MoonVideo</a>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
